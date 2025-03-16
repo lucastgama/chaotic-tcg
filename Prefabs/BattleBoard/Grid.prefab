@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6555217275523540638}
   - component: {fileID: 5258743540102371019}
   - component: {fileID: 6643331136362686006}
+  - component: {fileID: 6162887498969233292}
   m_Layer: 0
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: Grid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,5 +130,21 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 10, y: 0.2, z: 10}
+  m_Size: {x: 10, y: 0.5, z: 10}
   m_Center: {x: 0, y: 0, z: -0}
+--- !u!114 &6162887498969233292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2532594429428604180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7d925b88f556946bfd14c959ec1ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emptyColor: {r: 0, g: 1, b: 0, a: 1}
+  occupiedColor: {r: 1, g: 0, b: 0, a: 1}
+  isOccupied: 0
+  creatureCount: 0
